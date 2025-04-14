@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 775px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+      height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin-top: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container {
+    padding-top: 100px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.7s ease;
+}
+
+a:hover {
+    transform: translateY(-10px);
+}
+
+header {
+    width: auto;
+    height: auto;
+
+}
+
+body {
+    background-color: #D9D9D9;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 85vh;
+    width: 60%;
+    height: 95vh;
+    padding-left: 100px;
+}
+
+.img-main {
+    z-index: 10;
+    width: 50%;
+
+}
+
+.header-menu {
+    background-color: #090E22;
+    height: 100px;
+
+}
+
+.header-nav {
+    color: #D9D9D9;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+
+}
+
+
+
+.font {
+    font-size: 36px;
+}
+
+.margin-nav-years {
+    margin-top: 32px;
+}
+
+.margin-nav {
+    margin-top: 44px;
+}
+
+
+
+.info-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #090E22;
+    width: 60%;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #D9D9D9;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #D9D9D9;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.name {
+    color: #D9D9D9;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.border {
+    border-bottom: solid 2px #D9D9D9;
+    margin: 50px 80px;
+}
+
+.line {
+    border-bottom: solid 3px #090E22;
+    margin: 0 100px;
+    width: 80%;
+}
+
+.container {
+    background-color: #090E22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cotolog-container-history {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+.cotolog-container-museum {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.history-museum {
+    width: 60%;
+    height: 100%;
+}
+.museum {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 20px;
+    text-align: center;
+}
+
+.cotolog-div-text {
+    border: #090E22 solid 4px;
+    width: 100%;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: -20px;
+}
+
+
+
+.cotolog-history {
+    padding-top: 5vh;
+    display: flex;
+}
+
+.img-cotolog {
+    width: 40%;
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.img-width {
+    width: 30vh
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.cotolog-container-years {
+    width: 100%;
+    z-index: 10;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.years-museum {
+    width: 60%;
+
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 20px;
+    text-align: center;
+}
+
+.cotolog-div-text-years {
+    border: #090E22 solid 4px;
+    width: 70%;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cotolog-years {
+    padding-top: 5vh;
+    display: flex;
+}
+
+.img-cotolog-years {
+    width: 40%;
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-width-years {
+    width: 50vh;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.margin {
+    margin-top: 10vh;
+}
+
+.footer-h {
+    font-size: 32px
+}
+
+.footer-a {
+    font-size: 24px
+}
+
+.footer-ul {
+    align-items: center;
+}
+
+
+
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    line-height: 4vh;
+    background-color: #090E22;
+    color: #D9D9D9;
+    height: 20vh;
+    margin-top: 10vh;
+}
+
+
+
+
+
+
+
+.cotolog-div-text-museum {
+    border: #090E22 solid 4px;
+    width: 70%;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+
+.container-h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.a-buttom{
+    background-color: #090E22;
+    padding: 20px 20px;
+    color: #D9D9D9;
+    border-radius: 15px;
+    margin-top: 5vh;
+}
+
+
+
+
+
+
+.mySwiper{
+    width: 775px;
+}
+
+
+
+
+
+
+/*  
+.bx-wrapper {
+    width: 775px;
+}
+.slider{
+    margin: 10vh;
+}*/
+@media (max-width: 1000px) {
+
+    .footer-container {
+        gap: 10vh;
+    }
+
+    .info-div {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 55%;
+        padding-left: 0;
+
+
+    }
+
+    .footer-h {
+        font-size: 20px;
+    }
+
+    .footer-a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .font {
+        font-size: 15px;
+    }
+
+    .cotolog-div-text-years {
+        font-size: 17px;
+    }
+
+    .cotolog-div-text {
+        font-size: 20px;
+    }
+
+    .font {
+        font-size: 15px;
+    }
+    .name{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+    .cotolog-div-text-years {
+        font-size: 22px;
+    }
+
+    .font {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    .header-nav {
+        font-size: 12px;
+    }
+
+    .footer-h {
+        font-size: 18px;
+    }
+
+    .footer-a {
+        font-size: 14px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .border {
+        margin: 30px 80px;
+    }
+    .cotolog-div-text-museum {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:400) and (max-width: 700px) {
+    .font {
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .main-container {
+        width: 70%;
+    }
+
+    .cotolog-div-text {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    .img-cotolog {
+        display: none;
+    }
+    
+
+
+
+    .info-div {}
+
+}
+
+@media (max-width: 500px) {
+    .main-container {
+        width: 80%;
+        padding-left: 0;
+    }
+
+
+
+    .cotolog-div-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .name {
+        font-size: 20px;
+    }
+
+    .info-div {
+        width: 80%;
+    }
+
+    .img-main {
+        display: none;
+    }
+}
+
+@media (max-width: 1700px) {
+    .main-container {
+        padding-left: 30px;
+
+
+    }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+    .cotolog-div-text-years {
+        font-size: 27px;
+    }
+    .cotolog-div-text-museum {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .cotolog-div-text {
+        font-size: 27px;
+    }
+    
+}
+
+@media (max-width: 1500px) {
+    .cotolog-container-years {
+        justify-content: center;
+    }
+
+    .cotolog-div-text-years {
+        width: 100%;
+    }
+
+    .img-width-years {
+        display: none;
+    }
+
+    .img-cotolog-years {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .img-cotolog {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .cotolog-div-text {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cotolog-history {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+@media (max-width: 800px){
+    .mySwiper{
+       display: none;
+    }
+}
